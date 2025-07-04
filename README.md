@@ -1,31 +1,30 @@
-# ap_trusted_testers
+# AlphaProteo Trusted Tester Program Notebooks
 
-TODO(b/416221728): Add a description for your new project, explain what is
-being released here, etc... Additional, the following sections are normally
-expected for all releases. Feel free to add additional sections if appropriate
-for your project.
-
-## Installation
-
-Write instructions for how the user should install your code. The instructions
-should ideally be valid when copy-pasted. You can combine this with the Usage
-section if there's no separate installation step.
+The `ap_prepare_inputs` colab is provided as an aid to the users of the
+AlphaProteo Trusted Tester Program. It can be used to prototype requests and
+provides an interface to iterate on target protein regions, performing basic
+validation, and visualising the selected target.
 
 ## Usage
 
-Write example usage of your code. The instructions should ideally be valid when
-copy-pasted, and will be used by your technical reviewer to verify that your
-package functions correctly.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-deepmind/ap_trusted_testers/blob/master/ap_prepare_inputs.ipynb)
+To begin, please type or paste your target PDB ID into the corresponding field,
+then select "Runtime" -> "Run all" from the menu. See detailed instructions
+at the top of the colab.
 
 ## Citing this work
 
-Add citation details here, usually a pastable BibTeX snippet:
+The AlphaProteo model can be cited as follows:
 
 ```
-@article{publicationname,
-      title={Publication Name},
-      author={Author One and Author Two and Author Three},
-      year={2025},
+@misc{zambaldi2024novodesignhighaffinityprotein,
+  title         = {De novo design of high-affinity protein binders with AlphaProteo},
+  author        = {Vinicius Zambaldi and David La and Alexander E. Chu and Harshnira Patani and Amy E. Danson and Tristan O. C. Kwan and Thomas Frerix and Rosalia G. Schneider and David Saxton and Ashok Thillaisundaram and Zachary Wu and Isabel Moraes and Oskar Lange and Eliseo Papa and Gabriella Stanton and Victor Martin and Sukhdeep Singh and Lai H. Wong and Russ Bates and Simon A. Kohl and Josh Abramson and Andrew W. Senior and Yilmaz Alguel and Mary Y. Wu and Irene M. Aspalter and Katie Bentley and David L. V. Bauer and Peter Cherepanov and Demis Hassabis and Pushmeet Kohli and Rob Fergus and Jue Wang},
+  year          = {2024},
+  eprint        = {2409.08022},
+  archivePrefix = {arXiv},
+  primaryClass  = {q-bio.BM},
+  url           = {https://arxiv.org/abs/2409.08022},
 }
 ```
 
